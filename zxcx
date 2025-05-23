@@ -1,3 +1,6 @@
+/index.html
+/sw.js
+/manifest.json
 const CACHE_NAME = 'chess-v1';
 const urlsToCache = [
   './',

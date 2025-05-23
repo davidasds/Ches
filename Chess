@@ -719,3 +719,5 @@ index.html
 </body>
 </html>
 Add full chess game HTML
+navigator.serviceWorker.register('sw.js')
+

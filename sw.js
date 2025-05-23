@@ -1,6 +1,3 @@
-/index.html
-/sw.js
-/manifest.json
 const CACHE_NAME = 'chess-v1';
 const urlsToCache = [
   './',
@@ -21,3 +18,4 @@ self.addEventListener('fetch', event => {
       .then(response => response || fetch(event.request))
   );
 });
+Add service worker for offline support
